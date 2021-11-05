@@ -1,4 +1,4 @@
-![Fun GIF about skincare-routines from Schitts Creek](https://media.giphy.com/media/kGlyXUdKpFdSG5Zh5R/giphy.gif)
+![Beauty Skincare GIF By Death In Paradise](https://media.giphy.com/media/kGlyXUdKpFdSG5Zh5R/giphy.gif)
 
 # Landing-page
 
