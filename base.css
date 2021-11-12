@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  /* Colors */
+  --black: #000;
+  --white: #fff;
+  --beige: #f6f3ef;
+  --light-grey: #f9f8f7;
+
+  /* Fonts sizes */
+  --base-size: ;
+  --h1: 4.5rem;
+  --h2: 3.5rem;
+  --h3: 2rem;
+  --p: 1rem;
+  --p-small: 0.875rem;
+  --p-large: 1.25rem;
+}
+
+section,
+footer {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+section {
+  margin-bottom: 80px;
+}
