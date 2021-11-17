@@ -6,6 +6,7 @@
   --light-grey: #f9f8f7;
 
   /* Fonts weights */
+  --light: rubik-light;
   --regular: rubik-regular;
   --medium: rubik-medium;
 
@@ -43,6 +44,17 @@ body {
 @font-face {
   font-family: rubik-regular;
   src: url(./fonts/rubik-regular.woff2);
+}
+
+@font-face {
+  font-family: rubik-light;
+  src: url(./fonts/Rubik-light.woff2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--light);
 }
 
 h1 {
