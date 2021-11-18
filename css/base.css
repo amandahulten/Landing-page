@@ -63,7 +63,9 @@ h3 {
   font-size: var(--h3);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--light);
 }
 
@@ -108,7 +110,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .section-title h3 {
@@ -156,6 +157,5 @@ svg.arrow-right {
     margin-left: 1rem;
     width: 1rem;
     height: 1rem;
-
   }
 }
