@@ -81,6 +81,11 @@ a {
   font-size: var(--p);
 }
 
+.separator {
+  border-bottom: 1px solid var(--black);
+  margin: 1rem 0;
+}
+
 /*--- Header, sections and footer ---*/
 
 /*- Mobile -*/
@@ -98,6 +103,32 @@ footer {
     padding-right: 2.5rem;
   }
 }
+
+.primary_button,
+.primary_button_sm {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 3.5rem;
+  padding: 1rem;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  font-size: var(--p);
+  cursor: pointer;
+}
+
+.primary_button svg,
+  .primary_button_sm svg {
+    margin-left: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .primary_button_sm {
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    font-size: var(--p-small);
+  }
 
 /*--- Section title ---*/
 
@@ -117,13 +148,14 @@ footer {
   font-size: var(--p-large);
 }
 
-svg.arrow-right {
+svg.arrow-right,
+.add-btn {
   width: 1.5rem;
   height: 1.5rem;
   fill: var(--black);
 }
 
-.section-title button {
+.primary_button {
   display: none;
 }
 
@@ -143,20 +175,15 @@ svg.arrow-right {
     font-size: var(--h3);
   }
 
-  .section-title button {
+  .primary_button {
     display: flex;
+    align-items: center;
     width: auto;
     height: 3.5rem;
     padding: 1rem;
     background-color: var(--white);
     border: 1px solid var(--black);
-    font-size: var(--p-small);
+    font-size: var(--p);
     cursor: pointer;
-  }
-
-  .section-title button svg {
-    margin-left: 1rem;
-    width: 1rem;
-    height: 1rem;
   }
 }
