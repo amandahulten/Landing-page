@@ -1,0 +1,13 @@
+.our_story-container {
+  width: 100%;
+  min-height: 375px;
+  padding: 10px;
+}
+
+.our_story h2 {
+  font-size: var(--h3);
+}
+
+.our_story {
+  background-color: aqua;
+}
