@@ -46,9 +46,28 @@
   padding: 1.5rem 1rem;
 }
 
-.product_title {
+.product_title,
+.product_price {
   font-family: var(--light);
   font-size: var(--p-large);
+}
+
+.product_category,
+.product_size {
+  font-family: var(--light);
+  font-size: var(--p-small);
+  margin-bottom: 0.4rem;
+}
+
+.product_category {
+  color: #616161;
+}
+
+.cart_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*-- Tablet ---*/
