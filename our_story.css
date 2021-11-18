@@ -1,13 +1,39 @@
-.our_story-container {
+.our_story_container {
   width: 100%;
   min-height: 375px;
   padding: 10px;
+  background-color: var(--beige);
+  padding-top: 77px;
 }
 
 .our_story h2 {
-  font-size: var(--h3);
+  font-size: 24px;
+  font-weight: var(--regular);
+  padding-bottom: 24px;
 }
 
-.our_story {
-  background-color: aqua;
+.our_story p {
+  padding-bottom: 24px;
+  font-weight: var(--regular);
+  line-height: 1.8rem;
+}
+
+.our_story button {
+  font-size: var(--h4);
+  width: 201px;
+  height: 48px;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--beige);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.our_story_img img {
+  width: 100%;
+  min-height: 375px;
+  transform: scale(1);
+  object-fit: cover;
 }
