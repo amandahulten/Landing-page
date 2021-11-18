@@ -38,17 +38,17 @@ body {
 
 @font-face {
   font-family: rubik-medium;
-  src: url(./fonts/rubik-medium.woff2);
+  src: url(../fonts/rubik-medium.woff2);
 }
 
 @font-face {
   font-family: rubik-regular;
-  src: url(./fonts/rubik-regular.woff2);
+  src: url(../fonts/rubik-regular.woff2);
 }
 
 @font-face {
   font-family: rubik-light;
-  src: url(./fonts/Rubik-light.woff2);
+  src: url(../fonts/Rubik-light.woff2);
 }
 
 h1,
@@ -105,7 +105,8 @@ footer {
 .section-title {
   width: 100%;
   height: 5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  padding: 0 1rem;
 
   display: flex;
   align-items: center;
@@ -132,6 +133,11 @@ svg.arrow-right {
 @media screen and (min-width: 640px) {
   svg.arrow-right {
     display: none;
+  }
+
+  .section-title {
+    margin: 2rem 0;
+    padding: 0 2rem;
   }
 
   .section-title h3 {
