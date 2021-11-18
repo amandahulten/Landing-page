@@ -62,34 +62,33 @@ section.hero_container .canvas {
 
 @media screen and (min-width: 1440px) {
 
-section.hero_container .canvas {
-  height: 840px;
-}
+  section.hero_container .canvas {
+    height: 840px;
+  }
 
-.hero_content {
-  justify-content: center;
-  padding: 2.5rem;
-  width: 50%;
-}
+  .hero_content {
+    justify-content: center;
+    padding: 2.5rem;
+    width: 50%;
+  }
 
-.hero_content h1 {
-  font-size: var(--h1);
-}
+  .hero_content h1 {
+    font-size: var(--h1);
+  }
 
-.hero_content p {
-  display: inherit;
-  width: 70%;
-  margin-bottom: 2rem;
-}
+  .hero_content p {
+    display: inherit;
+    width: 70%;
+    margin-bottom: 2rem;
+  }
 
-.hero_content a {
-  font-size: var(--p-large);
-}
+  .hero_content a {
+    font-size: var(--p-large);
+  }
 
-.canvas img {
-  transform: scale(1.125);
-  object-fit: cover;
-  object-position: 20% 0%;
-}
-
+  .canvas img {
+    transform: scale(1.125);
+    object-fit: cover;
+    object-position: 20% 0%;
+  }
 }
