@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/base.css" />
-    <link rel="stylesheet" href="/header.css" />
-    <link rel="stylesheet" href="our_story.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/popular_products.css" />
+    <link rel="stylesheet" href="css/our_story.css" />
+    <link rel="stylesheet" href="css/range.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
     <title>Aesop</title>
   </head>
   <body>
@@ -86,31 +92,59 @@
       </div>
     </section>
 
-    <section class="most_popular_container">
-      <div class="most_popular">
-        <div class="popular_picture1">
-          <!--Tveksam om vi behöver ha de i olika divar eller bara en stor-->
-          <img src="#" alt="#" />
-          <p>Rubrik</p>
-          <p>Price:</p>
+    <section class="most_popular">
+      <div class="section-title">
+        <h3>Best selling products</h3>
+        <svg class="arrow-right" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.448 2.144L24 11.648L14.448 21.2H11.28L19.92 12.752H0V10.448H19.92L11.28 2H14.448V2.144Z"/>
+        </svg>
+        <button class="section-title button">
+          See all products
+          <svg class="arrow-btn" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.448 2.144L24 11.648L14.448 21.2H11.28L19.92 12.752H0V10.448H19.92L11.28 2H14.448V2.144Z"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="most_popular_container">
+        <div class="product_container">
+          <div class="frame one">
+            <img src="/images/product-1-1584x962px.webp" alt="aesop hand balm bottle" />
+          </div>
+          <div class="product_content">
+            <p>Rubrik</p>
+            <p>Price:</p>
+          </div>
         </div>
 
-        <div class="popular_picture2">
-          <img src="#" alt="#" />
-          <p>Rubrik</p>
-          <p>Price:</p>
+        <div class="product_container">
+          <div class="frame two">
+            <img src="/images/product-2-843x1000px.webp" alt="aesop hand balm bottle" />
+          </div>
+          <div class="product_content">
+            <p>Rubrik</p>
+            <p>Price:</p>
+          </div>
         </div>
 
-        <div class="popular_picture3">
-          <img src="#" alt="#" />
-          <p>Rubrik</p>
-          <p>Price:</p>
+        <div class="product_container">
+          <div class="frame three">
+            <img src="/images/product-3-684x668px.webp" alt="aesop hand balm bottle" />
+          </div>
+          <div class="product_content">
+            <p>Rubrik</p>
+            <p>Price:</p>
+          </div>
         </div>
 
-        <div class="popular_picture4">
-          <img src="#" alt="#" />
-          <p>Rubrik</p>
-          <p>Price:</p>
+        <div class="product_container">
+          <div class="frame four">
+            <img src="/images/product-4-1584x962px.webp" alt="aesop hand balm bottle" />
+          </div>
+          <div class="product_content">
+            <p>Rubrik</p>
+            <p>Price:</p>
+          </div>
         </div>
       </div>
     </section>
