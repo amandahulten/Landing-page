@@ -6,8 +6,9 @@
   --light-grey: #f9f8f7;
 
   /* Fonts weights */
-  --regular: rubik-regular;
   --medium: rubik-medium;
+  --regular: rubik-regular;
+  --light: rubik-light;
 
   /* Fonts sizes */
   --base-size: 16px;
@@ -27,7 +28,6 @@
 }
 
 body {
-  font-family: var(--regular);
   background-color: var(--white);
   color: var(--black);
   line-height: 1.5;
@@ -45,24 +45,35 @@ body {
   src: url(../fonts/rubik-regular.woff2);
 }
 
+@font-face {
+  font-family: rubik-light;
+  src: url(../fonts/rubik-light.woff2);
+}
+
 h1 {
   font-size: var(--h1);
   line-height: 1.125;
 }
 
-/* h2 {
+h2 {
   font-size: var(--h2);
-} */
+}
 
 h3 {
   font-size: var(--h3);
 }
 
+h1, h2, h3 {
+  font-family: var(--light);
+}
+
 p {
+  font-family: var(--regular);
   font-size: var(--p);
 }
 
 a {
+  font-family: var(--regular);
   color: var(--black);
   font-size: var(--p);
 }
