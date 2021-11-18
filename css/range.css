@@ -1,0 +1,46 @@
+/*- Mobile -*/
+
+.product_links {
+  width: 100%;
+  padding: 8.75rem 0;
+}
+
+.product_range_container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_range_container h4 {
+  margin-bottom: 3rem;
+}
+
+.product_range_container ul {
+  width: 100%;
+}
+
+.category_name {
+  font-family: var(--light);
+  font-size: var(--h3);
+  padding-right: 2.5rem;
+}
+
+.product_links li span {
+  vertical-align: super;
+  font-family: var(--regular);
+  font-size: var(--p-small);
+  text-decoration: none;
+}
+
+/*- Tablet & Desktop -*/
+@media screen and (min-width: 640px) {
+  .product_range_container ul {
+    width: 60%;
+  }
+
+  .category_name {
+    font-size: 48px;
+  }
+}

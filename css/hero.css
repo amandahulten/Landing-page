@@ -16,7 +16,7 @@ section.hero_container {
   width: 100%;
   min-height: 720px;
   padding: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 section.hero_container .canvas {
@@ -34,7 +34,6 @@ section.hero_container .canvas {
   flex-direction: column;
   justify-content: flex-end;
   padding: 1rem 1rem 2rem 1rem;
-  z-index: 1;
   width: 90%;
   height: 100%;
 }

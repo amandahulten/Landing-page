@@ -27,7 +27,7 @@
 }
 
 .our_story button {
-  font-size: var(--h4);
+  font-size: var(--p-small);
   width: 201px;
   height: 48px;
   border: 1px solid black;

@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
     <link rel="stylesheet" href="/css/our_story.css" />
     <link rel="stylesheet" href="/css/popular_products.css" />
     <link rel="stylesheet" href="/css/articles.css" />
+    <link rel="stylesheet" href="/css/range.css" />
     <title>Aesop</title>
   </head>
   <body>
@@ -224,7 +226,7 @@
           We offer skin, hair and body care formulations created with meticulous
           attention to detail, and with efficacy and sensory pleasure in mind.
         </p>
-        <button>
+        <button class="primary_button">
           Read more about us
           <svg
             width="22"
@@ -246,9 +248,34 @@
     </section>
 
     <section class="product_links">
-      <h3>Our range of products</h3>
+      <div class="product_range_container">
+        <h4>Our range of products</h4>
+        <ul class>
+          <li>
+            <a class="category_name" href="#">Skin Care<span>101</span></a>
+          </li>
+          <li>
+            <a class="category_name" href="#">Hair<span>20</span></a>
+          </li>
+          <li>
+            <a class="category_name" href="#">Body & hand<span>98</span></a>
+          </li>
+          <li>
+            <a class="category_name" href="#">Fragrance<span>12</span></a>
+          </li>
+          <li>
+            <a class="category_name" href="#">Home<span>27</span></a>
+          </li>
+          <li>
+            <a class="category_name" href="#">Kits & travel<span>30</span></a>
+          </li>
+          <li>
+            <a class="category_name" href="#">Gifts<span>64</span></a>
+          </li>
+        </ul>
 
-      <div class="latest_editions"></div>
+      </div>
+
     </section>
 
     <section class="articles_container">
@@ -289,7 +316,7 @@
       </article>
     </section>
 
-    <div class="marquee" data-speed="0.9">
+    <div class="marquee" data-speed="0.9" data-reverse="true">
       <p>Enjoy complimentary carbon neutral shipping on all orders. Shipping from Stockholm.</p>
     </div>
 
