@@ -115,6 +115,34 @@ section.hero_container .canvas {
 /*- Desktop -*/
 
 @media screen and (min-width: 1440px) {
+  .hamburger {
+    display: none;
+  }
+
+  .login {
+    display: block;
+  }
+
+  .right_nav li {
+    padding: 10px;
+  }
+
+  .left_nav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .left_nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .left_nav li a {
+    text-decoration: none;
+  }
+
   section.hero_container .canvas {
     height: 840px;
   }

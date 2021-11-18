@@ -1,4 +1,4 @@
-header {
+/* header {
   background: transparent;
 }
 
@@ -11,7 +11,7 @@ header {
 /*--- Hero section ---*/
 
 /*- Mobile -*/
-section.hero_container {
+/* section.hero_container {
   position: relative;
   width: 100%;
   min-height: 720px;
@@ -60,7 +60,7 @@ section.hero_container .canvas {
 
 /*- Desktop -*/
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
 
   section.hero_container .canvas {
     height: 840px;
@@ -91,4 +91,4 @@ section.hero_container .canvas {
     object-fit: cover;
     object-position: 20% 0%;
   }
-}
+} */
