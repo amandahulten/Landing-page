@@ -219,22 +219,18 @@ svg.arrow-right,
   padding: 2.5rem 0;
   overflow: hidden;
   transition: transform 1s cubic-bezier(0.45, 0, 0.55, 1) 2.2s;
-  position: relative;
 }
 
-.marquee__copy p {
-  position: absolute;
-  display: block;
+.marquee__copy {
   font-family: var(--light);
   font-size: var(--p-large);
-  padding-right: 80px;
+  padding-right: 12rem;
 }
 
 /*- Desktop -*/
 @media screen and (min-width: 640px) {
   .marquee__copy {
     font-size: var(--h3);
-    overflow: hidden;
   }
 }
 
