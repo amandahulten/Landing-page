@@ -40,6 +40,7 @@ section.hero_container .canvas {
 }
 
 .hero_content h1 {
+  font-family: var(--light);
   font-size: var(--h2);
   margin-bottom: 1rem;
 }
