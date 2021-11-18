@@ -37,3 +37,6 @@
   transform: scale(1);
   object-fit: cover;
 }
+
+@media screen {
+}
