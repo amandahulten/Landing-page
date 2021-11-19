@@ -24,7 +24,8 @@
 .category_name {
   font-family: var(--light);
   font-size: var(--h3);
-  padding-right: 2.5rem;
+  margin-right: 2.5rem;
+  line-height: normal;
 }
 
 .product_links li span {
