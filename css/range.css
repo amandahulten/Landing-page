@@ -3,6 +3,7 @@
 .product_links {
   width: 100%;
   padding: 8.75rem 0;
+  background-color: var(--light-grey);
 }
 
 .product_range_container {
