@@ -1,6 +1,8 @@
 .most_popular {
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--black);
 }
 
 .most_popular_container {
@@ -14,8 +16,18 @@
   width: calc(100%);
 }
 
+.product_container a {
+  display: inherit;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.product_container a:hover {
+  opacity: 0.9;
+}
+
 .frame {
-  height: 512px;
+  height: 32rem;
   position: relative;
   overflow: hidden;
 }

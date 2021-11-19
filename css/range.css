@@ -4,6 +4,7 @@
   width: 100%;
   padding: 8.75rem 0;
   background-color: var(--light-grey);
+  border-top: 1px solid var(--black);
 }
 
 .product_range_container {

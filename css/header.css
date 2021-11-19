@@ -136,6 +136,11 @@ section.hero_container .canvas {
 
   .right_nav li {
     padding: 10px;
+    margin-left: 2rem;
+  }
+
+  .logo {
+    margin-right: 9rem;
   }
 
   .left_nav {
@@ -148,6 +153,7 @@ section.hero_container .canvas {
     display: inline-block;
     text-decoration: none;
     padding: 10px;
+    margin-right: 2rem;
   }
 
   .left_nav li a {
