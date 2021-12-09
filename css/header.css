@@ -63,6 +63,11 @@ nav.scroll {
   text-decoration: none;
 }
 
+/* Hide login link om mobile */
+.right_nav .login {
+  display: none;
+}
+
 .login {
   display: none;
 }
