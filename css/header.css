@@ -47,7 +47,7 @@ nav {
   position: absolute;
   width: 100%;
   padding: 1rem;
-  z-index: 3;
+  z-index: 999;
   border-bottom: 1px solid var(--black);
   transition: all 0.4s;
 }
@@ -201,6 +201,10 @@ section.hero_container .canvas {
 
   .logo {
     margin-right: 9rem;
+  }
+
+  nav {
+    z-index: 999;
   }
 
   .left_nav {
