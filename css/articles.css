@@ -11,6 +11,7 @@
   min-height: 375px;
   transform: scale(1);
   object-fit: cover;
+  display: block;
 }
 
 .article.skintypes,
