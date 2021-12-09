@@ -14,5 +14,6 @@ window.onscroll = () => {
 Marquee3k.init({
 	selector: 'marquee',
 });
-
-Marquee3k.refreshAll();
+window.addEventListener('load', (event) => {
+   Marquee3k.refreshAll();
+});
