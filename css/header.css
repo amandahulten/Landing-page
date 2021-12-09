@@ -1,14 +1,80 @@
 /*- Mobile -*/
 
+.left_nav {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: 0.7s;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  background-color: var(--light-grey);
+}
+
+.left_nav.active {
+  padding-top: 130px;
+  left: 0;
+  width: 100%;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.hamburger.active {
+  position: fixed;
+}
+
+.underline {
+  font-size: var(--h3);
+}
+
+.nav_item {
+  display: flex;
+  align-self: flex-end;
+  padding: 0px 48px 50px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding: 1rem;
-  z-index: 999;
+  z-index: 3;
   border-bottom: 1px solid var(--black);
   transition: all 0.4s;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transition-duration: 1s;
+  transform: translate(1px, 8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transition-duration: 1s;
+  transform: translate(1px, -8px) rotate(-45deg);
 }
 
 nav.scroll {
@@ -22,19 +88,8 @@ nav.scroll {
   align-items: center;
 }
 
-.left_nav {
-  display: none;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 8px;
-  /* -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; */
-  background-color: #101010;
-  z-index: 999;
+.logo svg {
+  margin-left: 64px;
 }
 
 .right_nav {
@@ -117,6 +172,18 @@ section.hero_container .canvas {
 }
 
 /*- Desktop -*/
+
+@media screen and (min-width: 768px) {
+  .left_nav.active {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .left_nav.active {
+    width: 50%;
+  }
+}
 
 @media screen and (min-width: 1440px) {
   .hamburger {
