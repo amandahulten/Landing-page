@@ -4,7 +4,7 @@ footer {
 
 .footer_text_container {
   margin: 80px 0px 64px 0;
-  max-width: 400px;
+  max-width: 480px;
 }
 
 .footer_svg {
@@ -14,7 +14,7 @@ footer {
 .footer_text p {
   font-family: var(--light);
   font-size: var(--p);
-  line-height: 21px;
+  line-height: 1.5;
 }
 
 .links h3 {
@@ -63,12 +63,15 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
-  .desktop_flex {
-    justify-content: flex-start;
+
+
+  .footer_text {
+    min-width: 420px;
+    margin-right: 80px;
   }
 
-  .about,
-  .social_media {
-    margin-left: 136px;
+  .links {
+    min-width: 375px;
+    padding-left: 80px;
   }
 }

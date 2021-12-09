@@ -11,15 +11,15 @@ window.onscroll = () => {
 
 // Marquee text effect
 
-// Marquee3k.init({
-//   selector: 'marquee',
-// });
-// window.addEventListener('load', (event) => {
-//   Marquee3k.refreshAll();
-// });
+Marquee3k.init({
+  selector: 'marquee',
+});
+window.addEventListener('load', (event) => {
+  Marquee3k.refreshAll();
+});
 
 const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.left_nav');
+const navMenu = document.querySelector('.mobile_nav');
 
 function mobileMenu() {
   hamburger.classList.toggle('active');
