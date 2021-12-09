@@ -89,7 +89,7 @@ a,
   color: var(--black);
   font-size: var(--p);
   text-decoration: none;
-  /* position: relative; */
+  position: relative;
   display: inline-block;
 }
 
