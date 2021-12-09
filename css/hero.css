@@ -2,12 +2,6 @@ header {
   background: transparent;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /*--- Hero section ---*/
 
 /*- Mobile -*/
@@ -61,7 +55,6 @@ section.hero_container .canvas {
 /*- Desktop -*/
 
 @media screen and (min-width: 1440px) {
-
   section.hero_container .canvas {
     height: 840px;
   }
