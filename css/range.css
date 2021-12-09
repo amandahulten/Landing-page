@@ -12,11 +12,18 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
 .product_range_container h4 {
   margin-bottom: 3rem;
+}
+
+.product_range_container p {
+  font-family: var(--light);
+  font-size: var(--p-small);
+  margin-top: 4rem;
 }
 
 .product_range_container ul {
