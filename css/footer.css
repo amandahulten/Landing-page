@@ -71,7 +71,7 @@ footer {
   }
 
   .links {
-    min-width: 375px;
+    width: 375px;
     padding-left: 80px;
   }
 }
