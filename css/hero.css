@@ -5,7 +5,7 @@ header {
 /*--- Hero section ---*/
 
 /*- Mobile -*/
-section.hero_container {
+.hero_container {
   position: relative;
   width: 100%;
   min-height: 720px;
@@ -13,7 +13,7 @@ section.hero_container {
   z-index: 1;
 }
 
-section.hero_container .canvas {
+.hero_container .canvas {
   position: relative;
   top: 0;
   left: 0;
