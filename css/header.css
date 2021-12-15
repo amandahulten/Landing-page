@@ -49,10 +49,9 @@ nav.scroll {
   z-index: 1;
 }
 
-.hamburger.active {
-  /* position: fixed; */
-
-}
+/* .hamburger.active {
+  position: fixed;
+} */
 
 .nav_item .underline {
   font-size: var(--h3);
